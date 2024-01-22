@@ -1,0 +1,416 @@
+@media (max-width: 412px) {
+    body{
+        background-color:  hsl(222, 26%, 31%);
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 96vh;
+        font-family: League Spartan;
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+    
+    .body{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .heading-1{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 95%;
+        margin-bottom: 5%;
+        padding:5% ;
+    }
+    
+    .right-side-heading{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: flex-end;
+        gap: 10px;
+    }
+    
+    .name{
+        color: white;
+        display: flex;
+        align-items: center;
+        font-weight: 600;
+        font-size: 20px;
+    }
+    
+    .theme{
+        color: white;
+        font-size: 14px;
+        margin-bottom: 5px;
+        margin-right: 10px;
+        font-weight: 600;
+    }
+    
+    .button{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .button-num{
+        word-spacing: 15px;
+        padding:0px 10px;
+        color: white;
+        font-weight: 600;
+    }
+    
+    .buttons{
+        display: flex;
+        justify-content: flex-start;
+        gap: 15px;
+        padding:0px 10px;
+        background-color:white;
+        padding:5px;
+        border-radius: 15px;
+    }
+    
+    #btn-1{
+        height:15px;
+        width: 15px;
+        border-radius: 50%;
+        border: none;
+        background-color:black;
+        
+    }
+        
+    #screen{
+        background-color: hsl(224, 36%, 15%);
+        color: white;
+        width: 95%;
+        margin: 2.5%;
+        padding:20px 0px;
+        font-size: 32px;
+        text-align: right;
+        margin-bottom:5%;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: solid 1px;
+        outline: none;
+    }
+    
+    #display{
+        background: transparent;
+        width: 100%;
+        padding: 15px;
+        font-size: 32px;
+        border: none;
+        color: white;
+        outline: none;
+        outline: none;
+        
+    }
+    
+    .keypad{
+        width: 100%;
+        padding: 5px 0px;
+        background-color: hsl(224, 36%, 15%);
+        border-radius: 10px;
+    }
+    
+    .row-1{
+        margin: 20px;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .row-1 input {
+        padding:10px  5px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size:24px ;
+        font-weight: 700;
+        width: 20%;
+        border-radius: 5px;
+        border: none;
+        background-color:hsl(30, 25%, 89%) ;
+        box-shadow: 0px 3px 0px 0px  hsl(28, 16%, 65%);
+        color: hsl(221, 14%, 31%);
+        font-family: League Spartan;
+        opacity: 0.8;
+    }
+    
+    .row-1 input:hover{
+        opacity: 1;
+    }
+
+    .number{
+        padding:10px  5px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size:24px ;
+        font-weight: 700;
+        width: 20%;
+        
+        border-radius: 5px;
+        border: none;
+        background-color:hsl(30, 25%, 89%) ;
+        box-shadow: 0px 3px 0px 0px  hsl(28, 16%, 65%);
+        color: hsl(221, 14%, 31%);
+        font-family: League Spartan;
+        opacity: 0.8;
+    }
+    
+    .row-1 input:active{
+        opacity: 1;
+    }
+    
+    #del{
+        background-color: hsl(225, 21%, 49%);
+        box-shadow: 0px 3px 0px 0px hsl(224, 28%, 35%);
+        color: white;
+        border: none;
+    }
+    
+    .bottom-row{
+        width: 100%;
+        padding: 10px 0px;   
+    }
+    
+    #reset{
+        width: 45%;
+        padding: 10px 0px;
+        font-weight: 600;
+        color: white;
+        background-color: hsl(225, 21%, 49%);
+        box-shadow: 0px 3px 0px 0px hsl(224, 28%, 35%);
+        border: none;
+        font-size: 26px;
+        border-radius: 5px;
+    }
+    
+    #submit{
+        width: 45%;
+        padding: 10px 0px;
+        font-weight: 600;
+        background-color:  hsl(6, 63%, 50%);
+        box-shadow: 0px 3px  hsl(6, 70%, 34%) ;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        font-size: 26px;
+        
+    }
+         
+}
+
+@media (min-width:413px) {
+    
+
+    body{
+        background-color:  hsl(222, 26%, 31%);
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 100vh;
+        font-family: League Spartan;
+    }
+    
+    .body{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 400px;
+    }
+    
+    .heading-1{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        margin-bottom: 25px;
+    }
+    
+    .right-side-heading{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: flex-end;
+        gap: 10px;
+    }
+    
+    .name{
+        color: white;
+        display: flex;
+        align-items: center;
+        font-weight: 600;
+        font-size: 20px;
+    }
+    
+    .theme{
+        color: white;
+        font-size: 14px;
+        margin-bottom: 5px;
+        margin-right: 10px;
+        font-weight: 600;
+    }
+    
+    .button{
+        display: flex;
+        flex-direction: column;
+        gap: px;
+    }
+    
+    .button-num{
+        word-spacing: 15px;
+        padding:0px 10px;
+        color: white;
+        font-weight: 600;
+    }
+    
+    .buttons{
+        display: flex;
+        justify-content: flex-start;
+        gap: 15px;
+        padding:0px 10px;
+        background-color:white;
+        padding:5px;
+        border-radius: 15px;
+    }
+    
+    #btn-1{
+        height:15px;
+        width: 15px;
+        border-radius: 50%;
+        border: none;
+        background-color:black;
+        
+    }
+    
+    #btn-1:active{
+        opacity: 0.4;
+    }
+    
+    #btn-2{
+        height:15px;
+        width: 15px;
+        border-radius: 50%;
+        border: none;
+        background-color:white;
+    }
+    
+    #screen{
+        background-color: hsl(224, 36%, 15%);
+        color: white;
+        width: 400px;
+        padding:20px 0px;
+        font-size: 32px;
+        text-align: right;
+        margin-bottom: 20px;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: solid 1px;
+        outline: none;
+
+    }
+    
+    #display{
+        background: transparent;
+        width: 360px;
+        padding: 18px 1px;
+        font-size: 32px;
+        border: none;
+        color: white;
+        outline: none;
+        
+    }
+    
+    .keypad{
+        width: 400px;
+        padding: 5px 0px;
+        background-color: hsl(224, 36%, 15%);
+        border-radius: 10px;
+    }
+    
+    .row-1{
+        margin: 20px;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .row-1 input {
+        padding:10px  5px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size:24px ;
+        font-weight: 700;
+        width: 60px;
+        border-radius: 5px;
+        border: none;
+        background-color:hsl(30, 25%, 89%) ;
+        box-shadow: 0px 3px 0px 0px  hsl(28, 16%, 65%);
+        color: hsl(221, 14%, 31%);
+        font-family: League Spartan;
+        opacity: 0.8;
+    }
+    
+    .row-1 input:hover{
+        opacity: 1;
+    }
+    
+    .row-1 input:active{
+        opacity: 1;
+    }
+    
+    
+    #del{
+        background-color: hsl(225, 21%, 49%);
+        box-shadow: 0px 3px 0px 0px hsl(224, 28%, 35%);
+        color: white;
+        border: none;
+    }
+    
+    .bottom-row{
+        width: 400px;
+        padding: 10px 0px;   
+    }
+    
+    #reset{
+        width: 159px;
+        padding: 10px 0px;
+        font-weight: 600;
+        color: white;
+        background-color: hsl(225, 21%, 49%);
+        box-shadow: 0px 3px 0px 0px hsl(224, 28%, 35%);
+        border: none;
+        font-size: 26px;
+        border-radius: 5px;
+    }
+    
+    #submit{
+        width: 159px;
+        padding: 10px 0px;
+        font-weight: 600;
+        background-color:  hsl(6, 63%, 50%);
+        box-shadow: 0px 3px  hsl(6, 70%, 34%) ;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        font-size: 26px;
+    }
+    
+    }
+    
